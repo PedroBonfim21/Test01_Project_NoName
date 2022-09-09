@@ -5,6 +5,7 @@ Após isso, separe esse vector em mais dois novos vetores onde no primeiro vecto
 import random
 
 random_num = [random.randint(0, 100) for x in range(30)]
+print(f"Lista completa: {random_num}\n")
 num_par=[]
 num_impar=[]
 
@@ -16,5 +17,4 @@ for num in random_num:
         num_impar.append(num)
 
 print(f"vetor de numeros impar: {num_impar}")
-print("\n")
 print(f"vetor de numeros par: {num_par}")
